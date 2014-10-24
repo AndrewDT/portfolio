@@ -6,10 +6,11 @@ The **working branch** will be the **Dev** branch
 2. Check, commit changes, then push to **Staging** and **Production**
 Upon changes, the **Dev** branch will be **merged** with the **master branch**
     1. git **status** to check for changes
-    3. git **checkout** master
-    4. git **merge** Dev
-    5. git **add -A**
-    6. git **commit -m** '*Specifics of commit*'
+    2. git **add -A**
+    3. git **commit -m** '*Specifics of commit*'
+    4. git **status** check for changes again
+    5. git **checkout** master
+    6. git **merge** Dev
     7. git **push stageServer**
         1. push changes to staging server
     8. git **push prodServer**
